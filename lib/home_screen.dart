@@ -119,7 +119,7 @@ class CurrentUser extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Hi ${currentUser[0].name}",
+              Text("Hola! ${currentUser[0].name}",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 24,
@@ -131,7 +131,7 @@ class CurrentUser extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              Text("See what's next",
+              Text("Buscar que hay de nuevo.",
                 style: TextStyle(
                   fontWeight: FontWeight.normal,
                   fontSize: 24,
